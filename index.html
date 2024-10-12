@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Navbar</title>
+</head>
+
+<style>
+
+body, h3, ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    width: 100%;
+    padding: 10px 0px;
+    background: black;
+    float: left;
+}
+
+.logo {
+    color:white;
+    width: 20%;
+    float: left;
+}
+
+.links {
+  
+    width: 80%;
+    float: left;
+}
+
+li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+}
+
+a {
+   text-decoration:none;
+   color: wheat;
+}
+
+h3 {
+    margin-left: 10px;
+}
+
+.active {
+    background-color: red;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: blue;
+    padding: 5px;
+}
+
+
+</style>
+
+<body>
+    
+    <div class="nav">
+    <div class="logo">
+        <h3><b>My Navbar</b></h3>
+    </div>
+    <div class="links">
+        <ul>
+            <li>
+                <!-- in above mentioned style tag (css) we change list style of li tag to none to remove bullets-->
+                 <!-- Same work will be done if we use # in href "". -->
+                <a href="" class="active">Home</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+                <a href="">Services</a>
+            </li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
